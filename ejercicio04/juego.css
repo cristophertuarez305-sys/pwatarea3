@@ -1,0 +1,103 @@
+.tarjeta {
+    background: white;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.intentos {
+    color: #718096;
+    margin-bottom: 1rem;
+}
+
+.mensaje {
+    padding: 0.9rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+}
+
+.mensaje.pista {
+    background: #fffaf0;
+    color: #c05621;
+}
+
+.mensaje.aviso {
+    background: #fff5f5;
+    color: #c53030;
+}
+
+.mensaje.exito {
+    background: #f0fff4;
+    color: #2f855a;
+}
+
+#formJuego {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+}
+
+#numero {
+    width: 160px;
+    padding: 0.7rem;
+    border: 2px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#numero:focus {
+    outline: none;
+    border-color: #3b5bdb;
+}
+
+#numero.invalido {
+    border-color: #e53e3e;
+}
+
+button {
+    background: #3b5bdb;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #2f4ac0;
+}
+
+button.secundario {
+    background: #edf2f7;
+    color: #2d3748;
+}
+
+button.secundario:hover {
+    background: #e2e8f0;
+}
+
+.error {
+    display: block;
+    color: #e53e3e;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    min-height: 1.1rem;
+}
+
+.reinicio {
+    margin-top: 1.2rem;
+}
+
+.volver {
+    margin-top: 2rem;
+}
+
+.volver a {
+    color: #10e20c;
+    text-decoration: none;
+}

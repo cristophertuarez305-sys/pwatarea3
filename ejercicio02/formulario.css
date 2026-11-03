@@ -1,0 +1,80 @@
+form,
+.exito {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.campo {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 2px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3b5bdb;
+}
+
+input.invalido,
+textarea.invalido {
+    border-color: #e53e3e;
+}
+
+.error {
+    display: block;
+    color: #e53e3e;
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+    min-height: 1.1rem;
+}
+
+button[type="submit"] {
+    background: #3b5bdb;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #2f4ac0;
+}
+
+.exito h2 {
+    color: #2f855a;
+    margin-bottom: 1rem;
+}
+
+.exito p {
+    margin-bottom: 0.6rem;
+}
+
+.exito a,
+.volver a {
+    color: #09df29;
+    text-decoration: none;
+}
+
+.volver {
+    margin-top: 2rem;
+}

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #2854c5;
+    color: #2d3748;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #e7d108;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    opacity: 0.85;
+}
+
+main {
+    flex: 1;
+    max-width: 700px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+}
+
+.menu-ejercicios {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.menu-ejercicios a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.menu-ejercicios a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.numero {
+    background: #3b5bdb;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #718096;
+}
